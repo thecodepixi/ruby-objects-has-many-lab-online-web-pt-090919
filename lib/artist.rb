@@ -6,7 +6,7 @@ class Artist
   end 
   
   def songs 
-    
+    song.all.select { |artist| 
   end 
   
 end 
